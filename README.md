@@ -1,2 +1,14 @@
-# LiskovSubstitution
-The Liskov Substitution Principle
+## The Liskov Substitution Principle
+
+[![Принцип подстановки Барбары Лисков](https://img.youtube.com/vi/RbhYxygxroc/0.jpg)](https://www.youtube.com/watch?v=RbhYxygxroc)
+
+- Лисков: Пусть `q(x)` является свойством, верным относительно объектов `x`
+некоторого типа `T`. Тогда `q(y)` также должно быть верным для объектов `y`
+типа `S`, `S` является подтипом типа `T`.
+
+- Роберт Марртин: Функции, которые используют базовый тип, должны иметь
+возможность использовать подтипы базового типа, не зная об этом.
+
+- `q(x: T), q(y: S), S->T`
+
+
