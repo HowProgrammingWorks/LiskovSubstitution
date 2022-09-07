@@ -36,7 +36,7 @@ class Square extends Rect {
 
 // Usage
 
-const useRect = rect => {
+const useRect = (rect) => {
   rect.width = 10;
   console.log({ rect });
   console.log({ area: rect.area });

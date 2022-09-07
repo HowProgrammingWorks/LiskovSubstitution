@@ -30,7 +30,7 @@ class UserAccount extends Account {
 
 const account = new UserAccount('Marcus', 100);
 
-account.on('debt', debt => {
+account.on('debt', (debt) => {
   console.log({ debt });
 });
 
