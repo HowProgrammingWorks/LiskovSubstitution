@@ -3,7 +3,7 @@
 const thenable = () => ({
   then(onFulfilled) {
     onFulfilled(5);
-  }
+  },
 });
 
 // Usage

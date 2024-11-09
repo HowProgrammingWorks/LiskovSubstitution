@@ -7,12 +7,12 @@ const iterable = {
       next() {
         return {
           value: i++,
-          done: i > 3
+          done: i > 3,
         };
-      }
+      },
     };
     return iterator;
-  }
+  },
 };
 
 // Usage
